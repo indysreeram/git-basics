@@ -1,0 +1,11 @@
+//to set a folder as a git project
+git init
+//to check global configurations
+git config --list
+git config --global user.name "Sreeram Srinivasaragavan"
+git config --global user.email "indysreeram@gmail.com"
+//to ignore a file from commits
+create a .gitignore file and then add items for example as belo
+.DS_Store
+*.ignore
+*.pyc
